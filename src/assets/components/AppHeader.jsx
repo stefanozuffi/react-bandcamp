@@ -1,5 +1,5 @@
-import AppUpHeader from "./AppUpHeader"
-import AppLibSB from "./AppLibSB"
+import AppUpHeader from "./headerCom/AppUpHeader"
+import AppLibSB from "./headerCom/AppLibSB"
 
 export default function AppHeader() {
     return (

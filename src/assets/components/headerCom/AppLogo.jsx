@@ -1,4 +1,4 @@
-import logo from '../img/logo.jpeg'
+import logo from '../../img/logo.jpeg'
 
 export default function AppLogo() {
     return (
