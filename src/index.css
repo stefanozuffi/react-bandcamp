@@ -69,11 +69,18 @@ header {
 main {
   padding: 20px 0;
 
+  .MainDiv {
+    display: flex;
+    gap: 20px;
+  }
+  
+
   .card {
+    
     padding: 1rem 0;
     margin-bottom: 0.5rem;
     background-color: rgb(56, 68, 104);
-    min-height: fit-content;
+    
 
     h5, p {
       display: -webkit-box;
@@ -105,6 +112,14 @@ main {
       display: block; 
       }
     }
+
+  
+
+  .activeTrack {
+    width: 100%;
+    height: 400px;
+    background-color: white;
   }
+}
 
 

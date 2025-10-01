@@ -13,7 +13,6 @@ export default function AppProducts() {
                 titolo={album.titolo}
                 artista={album.artista}
                 genere={album.genere} />)
-                console.log(album.imgUrl)
                 })}
             
         </div>
